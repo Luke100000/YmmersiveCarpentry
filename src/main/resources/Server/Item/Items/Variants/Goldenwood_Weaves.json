@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Goldenwood_Weaves.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Goldenwood_Weaves.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Goldenwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Goldenwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "YmmersiveCarpentry",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Goldenwood"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Goldenwood_Weaves.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#926932",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Weaves"
+    ],
+    "Family": [
+      "Goldenwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

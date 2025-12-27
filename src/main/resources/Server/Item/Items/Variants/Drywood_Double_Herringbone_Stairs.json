@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Drywood_Double_Herringbone_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Drywood_Double_Herringbone_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Drywood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Drywood_Double_Herringbone",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Structural-Rock"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Drywood_Double_Herringbone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Snow",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ConnectedBlockShapeMaterial": {
+      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Drywood_Double_Herringbone_Stairs",
+        "Corner": "Drywood_Double_Herringbone_Stairs_Corner",
+        "Corner_Inverted": "Drywood_Double_Herringbone_Stairs_Corner_Inverted"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#9e8058",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Double_Herringbone"
+    ],
+    "Family": [
+      "Drywood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

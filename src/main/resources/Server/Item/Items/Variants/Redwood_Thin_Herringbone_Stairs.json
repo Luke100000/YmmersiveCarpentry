@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Redwood_Thin_Herringbone_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Redwood_Thin_Herringbone_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Redwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Redwood_Thin_Herringbone",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Structural-Rock"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Redwood_Thin_Herringbone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Snow",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ConnectedBlockShapeMaterial": {
+      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Redwood_Thin_Herringbone_Stairs",
+        "Corner": "Redwood_Thin_Herringbone_Stairs_Corner",
+        "Corner_Inverted": "Redwood_Thin_Herringbone_Stairs_Corner_Inverted"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#62331d",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Thin_Herringbone"
+    ],
+    "Family": [
+      "Redwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

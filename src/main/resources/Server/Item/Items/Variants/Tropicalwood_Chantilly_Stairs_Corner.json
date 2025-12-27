@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Tropicalwood_Chantilly_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Tropicalwood_Chantilly_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Tropicalwood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Tropicalwood_Chantilly.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Stairs_Corner",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Tropicalwood_Chantilly"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#cda45f",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Chantilly"
+    ],
+    "Family": [
+      "Tropicalwood"
+    ],
+    "SubType": [
+      "Stairs"
+    ]
+  },
+  "Variant": true,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

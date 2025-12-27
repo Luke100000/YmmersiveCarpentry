@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Lightwood_Mosaic.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Lightwood_Mosaic.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Lightwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Lightwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "YmmersiveCarpentry",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Lightwood"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Lightwood_Mosaic.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#c3ab8d",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Mosaic"
+    ],
+    "Family": [
+      "Lightwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

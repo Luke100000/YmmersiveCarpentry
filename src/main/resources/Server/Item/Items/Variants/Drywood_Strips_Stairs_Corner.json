@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Drywood_Strips_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Drywood_Strips_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Drywood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Drywood_Strips.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Stairs_Corner",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Drywood_Strips"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#997c55",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Strips"
+    ],
+    "Family": [
+      "Drywood"
+    ],
+    "SubType": [
+      "Stairs"
+    ]
+  },
+  "Variant": true,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

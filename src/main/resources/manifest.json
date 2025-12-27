@@ -1,0 +1,21 @@
+{
+  "Group": "net.conczin",
+  "Name": "Ymmersive Carpentry",
+  "Version": "0.0.1",
+  "Description": "Many wooden pattern and floor variants.",
+  "Authors": [
+    {
+      "Name": "Conczin",
+      "Email": "conczin@gmail.com",
+      "Url": "conczin.net"
+    }
+  ],
+  "Website": "conczin.net",
+  "Main": "net.conczin.YmmersiveCarpentry",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

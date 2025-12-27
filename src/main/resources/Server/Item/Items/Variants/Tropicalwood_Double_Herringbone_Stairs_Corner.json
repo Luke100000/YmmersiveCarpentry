@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Tropicalwood_Double_Herringbone_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Tropicalwood_Double_Herringbone_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Tropicalwood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Tropicalwood_Double_Herringbone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Stairs_Corner",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Tropicalwood_Double_Herringbone"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#cea65f",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Double_Herringbone"
+    ],
+    "Family": [
+      "Tropicalwood"
+    ],
+    "SubType": [
+      "Stairs"
+    ]
+  },
+  "Variant": true,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

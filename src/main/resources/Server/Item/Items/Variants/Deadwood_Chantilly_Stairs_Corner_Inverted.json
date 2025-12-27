@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Deadwood_Chantilly_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Deadwood_Chantilly_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Deadwood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner_Inverted.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Deadwood_Chantilly.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Stairs_Corner_Inverted",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Deadwood_Chantilly"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#453b28",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Chantilly"
+    ],
+    "Family": [
+      "Deadwood"
+    ],
+    "SubType": [
+      "Stairs"
+    ]
+  },
+  "Variant": true,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

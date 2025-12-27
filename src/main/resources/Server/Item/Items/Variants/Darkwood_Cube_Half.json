@@ -1,0 +1,118 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Darkwood_Cube_Half.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Darkwood_Cube_Half.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Darkwood",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Darkwood_Cube_Half",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Darkwood_Cube",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Stairs"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Darkwood_Cube.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "VariantRotation": "DoublePipe",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Darkwood_Cube.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#40261b",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Cube"
+    ],
+    "Family": [
+      "Darkwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

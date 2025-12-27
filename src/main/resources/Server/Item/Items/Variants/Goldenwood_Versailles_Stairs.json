@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Goldenwood_Versailles_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Goldenwood_Versailles_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Goldenwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Goldenwood_Versailles",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Structural-Rock"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Goldenwood_Versailles.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Snow",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ConnectedBlockShapeMaterial": {
+      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Goldenwood_Versailles_Stairs",
+        "Corner": "Goldenwood_Versailles_Stairs_Corner",
+        "Corner_Inverted": "Goldenwood_Versailles_Stairs_Corner_Inverted"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#956c34",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Versailles"
+    ],
+    "Family": [
+      "Goldenwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

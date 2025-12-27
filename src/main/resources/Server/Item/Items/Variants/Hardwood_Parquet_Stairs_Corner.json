@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Hardwood_Parquet_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Hardwood_Parquet_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Hardwood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Hardwood_Parquet.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Stairs_Corner",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Hardwood_Parquet"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5a3721",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Parquet"
+    ],
+    "Family": [
+      "Hardwood"
+    ],
+    "SubType": [
+      "Stairs"
+    ]
+  },
+  "Variant": true,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

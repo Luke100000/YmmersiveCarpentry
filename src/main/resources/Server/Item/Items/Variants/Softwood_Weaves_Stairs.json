@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Softwood_Weaves_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Softwood_Weaves_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Softwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Softwood_Weaves",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Structural-Rock"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Softwood_Weaves.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Snow",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ConnectedBlockShapeMaterial": {
+      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Softwood_Weaves_Stairs",
+        "Corner": "Softwood_Weaves_Stairs_Corner",
+        "Corner_Inverted": "Softwood_Weaves_Stairs_Corner_Inverted"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#6e482b",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Weaves"
+    ],
+    "Family": [
+      "Softwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

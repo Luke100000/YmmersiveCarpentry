@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Darkwood_Strips.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Darkwood_Strips.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Darkwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Darkwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "YmmersiveCarpentry",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Darkwood"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Darkwood_Strips.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#3f251a",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Strips"
+    ],
+    "Family": [
+      "Darkwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

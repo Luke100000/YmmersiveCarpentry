@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Redwood_Panel.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Redwood_Panel.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Redwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Redwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "YmmersiveCarpentry",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Redwood"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Redwood_Panel.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#67361f",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Panel"
+    ],
+    "Family": [
+      "Redwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Redwood_Mosaic_Stairs.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Redwood_Mosaic_Stairs.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Redwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Redwood_Mosaic",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Structural-Rock"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stairs/Ymmersive_Stairs.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Redwood_Mosaic.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Snow",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "North": [
+        {}
+      ]
+    },
+    "ConnectedBlockShapeMaterial": {
+      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Redwood_Mosaic_Stairs",
+        "Corner": "Redwood_Mosaic_Stairs_Corner",
+        "Corner_Inverted": "Redwood_Mosaic_Stairs_Corner_Inverted"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#61311c",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Mosaic"
+    ],
+    "Family": [
+      "Redwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

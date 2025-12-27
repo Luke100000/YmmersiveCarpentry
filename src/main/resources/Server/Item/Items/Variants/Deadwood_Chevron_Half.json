@@ -1,0 +1,118 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Deadwood_Chevron_Half.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Deadwood_Chevron_Half.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Deadwood",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Deadwood_Chevron_Half",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Deadwood_Chevron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Stairs"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Deadwood_Chevron.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "VariantRotation": "DoublePipe",
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Deadwood_Chevron.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#443a27",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Chevron"
+    ],
+    "Family": [
+      "Deadwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

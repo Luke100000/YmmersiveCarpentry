@@ -1,0 +1,93 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Ymmersive_Carpentry_Bench.name",
+    "Description": "items.Ymmersive_Carpentry_Bench.description"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 5,
+        "ResourceTypeId": "Rock"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ymmersive_Carpentry_Bench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Cutout",
+    "CustomModel": "Blocks/Ymmersive_Carpentry_Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Ymmersive_Carpentry_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "StructuralCrafting",
+      "Id": "YmmersiveCarpentry",
+      "Categories": [
+        "Variants"
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed"
+    },
+    "State": {
+      "Id": "crafting"
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6e4a2f",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

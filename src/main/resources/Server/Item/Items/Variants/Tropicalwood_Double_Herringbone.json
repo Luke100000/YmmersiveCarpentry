@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Tropicalwood_Double_Herringbone.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Variants/Tropicalwood_Double_Herringbone.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Tropicalwood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Tropicalwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "YmmersiveCarpentry",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Tropicalwood"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Tropicalwood_Double_Herringbone.png",
+        "Weight": 1
+      }
+    ],
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#cea65f",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Double_Herringbone"
+    ],
+    "Family": [
+      "Tropicalwood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

@@ -1,5 +1,5 @@
 {
-  "Group": "net.conczin",
+  "Group": "Conczin",
   "Name": "Ymmersive Carpentry",
   "Version": "0.0.1",
   "Description": "Many wooden pattern and floor variants.",
@@ -7,10 +7,10 @@
     {
       "Name": "Conczin",
       "Email": "conczin@gmail.com",
-      "Url": "conczin.net"
+      "Url": "https://conczin.net/"
     }
   ],
-  "Website": "conczin.net",
+  "Website": "https://conczin.net/",
   "Main": "net.conczin.YmmersiveCarpentry",
   "ServerVersion": "*",
   "Dependencies": {},

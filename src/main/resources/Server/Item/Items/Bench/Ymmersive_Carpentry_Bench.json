@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Ymmersive_Carpentry_Bench.name",
-    "Description": "items.Ymmersive_Carpentry_Bench.description"
+    "Name": "server.items.Ymmersive_Carpentry_Bench.name",
+    "Description": "server.items.Ymmersive_Carpentry_Bench.description"
   },
   "Recipe": {
     "Input": [

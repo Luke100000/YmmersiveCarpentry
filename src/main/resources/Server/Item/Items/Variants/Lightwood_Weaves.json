@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Lightwood_Weaves.name"
+    "Name": "variants.Lightwood_Weaves.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -32,7 +32,7 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Cube",
-    "Group": "Stone",
+    "Group": "Wood",
     "Flags": {},
     "Gathering": {
       "Breaking": {
@@ -45,9 +45,9 @@
         "Weight": 1
       }
     ],
-    "BlockParticleSetId": "Stone",
+    "BlockParticleSetId": "Wood",
     "ParticleColor": "#c3ac8e",
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Wood"
   },
   "Tags": {
     "Type": [
@@ -57,5 +57,5 @@
       "Lightwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

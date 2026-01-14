@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Darkwood_Cube.name"
+    "Name": "variants.Darkwood_Cube.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -32,7 +32,7 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Cube",
-    "Group": "Stone",
+    "Group": "Wood",
     "Flags": {},
     "Gathering": {
       "Breaking": {
@@ -45,9 +45,9 @@
         "Weight": 1
       }
     ],
-    "BlockParticleSetId": "Stone",
+    "BlockParticleSetId": "Wood",
     "ParticleColor": "#40261b",
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Wood"
   },
   "Tags": {
     "Type": [
@@ -57,5 +57,5 @@
       "Darkwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

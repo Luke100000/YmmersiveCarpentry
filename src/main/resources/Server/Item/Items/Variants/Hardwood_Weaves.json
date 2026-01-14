@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Hardwood_Weaves.name"
+    "Name": "variants.Hardwood_Weaves.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -32,7 +32,7 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Cube",
-    "Group": "Stone",
+    "Group": "Wood",
     "Flags": {},
     "Gathering": {
       "Breaking": {
@@ -45,9 +45,9 @@
         "Weight": 1
       }
     ],
-    "BlockParticleSetId": "Stone",
+    "BlockParticleSetId": "Wood",
     "ParticleColor": "#583520",
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Wood"
   },
   "Tags": {
     "Type": [
@@ -57,5 +57,5 @@
       "Hardwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

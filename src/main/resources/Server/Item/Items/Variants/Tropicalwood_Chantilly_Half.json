@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Tropicalwood_Chantilly_Half.name"
+    "Name": "variants.Tropicalwood_Chantilly_Half.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -9,7 +9,6 @@
     "Blocks.Rocks"
   ],
   "PlayerAnimationsId": "Block",
-  "Set": "Tropicalwood",
   "Interactions": {
     "Secondary": {
       "Interactions": [
@@ -39,6 +38,7 @@
       }
     }
   },
+  "Set": "Tropicalwood",
   "Recipe": {
     "Input": [
       {
@@ -51,23 +51,16 @@
         "Id": "Builders",
         "Type": "StructuralCrafting",
         "Categories": [
-          "Stairs"
+          "HalfSlab"
         ]
       }
     ],
-    "OutputQuantity": 1,
+    "OutputQuantity": 2,
     "TimeSeconds": 0
   },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "Group": "Stone",
-    "Flags": {},
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Rocks"
-      }
-    },
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
@@ -75,13 +68,23 @@
         "Weight": 1
       }
     ],
+    "Group": "Wood",
     "HitboxType": "Block_Half",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
     "VariantRotation": "DoublePipe",
+    "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
         {}
       ]
     },
+    "ParticleColor": "#cda45f",
+    "BlockSoundSetId": "Wood",
     "State": {
       "Definitions": {
         "Block": {
@@ -101,10 +104,7 @@
           }
         }
       }
-    },
-    "BlockParticleSetId": "Stone",
-    "ParticleColor": "#cda45f",
-    "BlockSoundSetId": "Stone"
+    }
   },
   "Tags": {
     "Type": [
@@ -114,5 +114,5 @@
       "Tropicalwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

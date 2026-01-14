@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Greenwood_Arenberg.name"
+    "Name": "variants.Greenwood_Arenberg.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -32,7 +32,7 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Cube",
-    "Group": "Stone",
+    "Group": "Wood",
     "Flags": {},
     "Gathering": {
       "Breaking": {
@@ -45,9 +45,9 @@
         "Weight": 1
       }
     ],
-    "BlockParticleSetId": "Stone",
+    "BlockParticleSetId": "Wood",
     "ParticleColor": "#7c814a",
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Wood"
   },
   "Tags": {
     "Type": [
@@ -57,5 +57,5 @@
       "Greenwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

@@ -1,0 +1,16 @@
+items.Ymmersive_Carpentry_Bench.name = Carpentry Bench
+items.Ymmersive_Carpentry_Bench.description = Create variants from base wood blocks.
+
+ui.bench.YmmersiveCarpentry = Ymmersive Carpentry
+
+ui.benchCategories.Blackwood = Blackwood
+ui.benchCategories.Darkwood = Darkwood
+ui.benchCategories.Deadwood = Deadwood
+ui.benchCategories.Drywood = Drywood
+ui.benchCategories.Goldenwood = Goldenwood
+ui.benchCategories.Greenwood = Greenwood
+ui.benchCategories.Hardwood = Hardwood
+ui.benchCategories.Lightwood = Lightwood
+ui.benchCategories.Redwood = Redwood
+ui.benchCategories.Softwood = Softwood
+ui.benchCategories.Tropicalwood = Tropicalwood

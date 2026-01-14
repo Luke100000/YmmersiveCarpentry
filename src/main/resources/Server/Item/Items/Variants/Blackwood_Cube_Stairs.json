@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Blackwood_Cube_Stairs.name"
+    "Name": "variants.Blackwood_Cube_Stairs.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -22,7 +22,7 @@
         "Id": "Builders",
         "Type": "StructuralCrafting",
         "Categories": [
-          "Structural-Rock"
+          "Stairs"
         ]
       }
     ],
@@ -40,7 +40,7 @@
         "Weight": 1
       }
     ],
-    "Group": "Snow",
+    "Group": "Blackwood",
     "HitboxType": "Stairs",
     "Flags": {},
     "Gathering": {
@@ -49,6 +49,7 @@
       }
     },
     "VariantRotation": "UpDownNESW",
+    "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
         {}
@@ -57,17 +58,85 @@
         {}
       ]
     },
-    "ConnectedBlockShapeMaterial": {
-      "TemplateShapeAssetId": "StairConnectedBlockTemplate",
-      "TemplateShapeBlockPatterns": {
-        "Straight": "Blackwood_Cube_Stairs",
-        "Corner": "Blackwood_Cube_Stairs_Corner",
-        "Corner_Inverted": "Blackwood_Cube_Stairs_Corner_Inverted"
+    "ParticleColor": "#1d1a16",
+    "BlockSoundSetId": "Wood",
+    "State": {
+      "Definitions": {
+        "Corner_Right": {
+          "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner_Right.blockymodel",
+          "HitboxType": "Stairs_Corner_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          }
+        },
+        "Inverted_Corner_Right": {
+          "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Inverted_Corner_Right.blockymodel",
+          "HitboxType": "Stairs_Inverted_Corner_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ],
+            "North": [
+              {}
+            ],
+            "East": [
+              {}
+            ]
+          }
+        },
+        "Corner_Left": {
+          "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Corner_Left.blockymodel",
+          "HitboxType": "Stairs_Corner_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ]
+          }
+        },
+        "Inverted_Corner_Left": {
+          "CustomModel": "Blocks/Stairs/Ymmersive_Stairs_Inverted_Corner_Left.blockymodel",
+          "HitboxType": "Stairs_Inverted_Corner_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {
+            "Down": [
+              {}
+            ],
+            "North": [
+              {}
+            ],
+            "West": [
+              {}
+            ]
+          }
+        }
       }
     },
-    "BlockParticleSetId": "Stone",
-    "ParticleColor": "#1d1a16",
-    "BlockSoundSetId": "Stone"
+    "PlacementSettings": {
+      "RotationMode": "StairFacingPlayer"
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "Stair",
+      "Corner_Left": {
+        "State": "Corner_Left"
+      },
+      "Corner_Right": {
+        "State": "Corner_Right"
+      },
+      "Inverted_Corner_Left": {
+        "State": "Inverted_Corner_Left"
+      },
+      "Inverted_Corner_Right": {
+        "State": "Inverted_Corner_Right"
+      },
+      "Straight": {
+        "State": "default"
+      }
+    }
   },
   "Tags": {
     "Type": [
@@ -77,5 +146,5 @@
       "Blackwood"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }

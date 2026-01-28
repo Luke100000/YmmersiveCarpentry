@@ -116,8 +116,17 @@ tasks.register('publish') {
         def metadata = [
                 changelog    : new File("${project.projectDir}/changelog.md").text,
                 changelogType: "markdown",
-                "displayName": "${displayName} - ${project.version}",
-                releaseType  : "release"
+                displayName  : "${displayName} - ${project.version}",
+                releaseType  : "release",
+                relations    : [
+                        projects: [
+                                [
+                                        slug     : "resource-groups",
+                                        projectID: 1446648,
+                                        type     : "requiredDependency"
+                                ]
+                        ]
+                ]
         ]
 
         def client = HttpClients.createDefault()

@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Darkwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Darkwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,23 @@
     "ParticleColor": "#40261b",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Darkwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Darkwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Parquet"

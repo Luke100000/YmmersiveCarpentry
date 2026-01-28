@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Greenwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Greenwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,23 @@
     "ParticleColor": "#7f834c",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Greenwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Greenwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Double_Herringbone"

@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Softwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Softwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,29 @@
     "ParticleColor": "#6e482b",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Softwood"
+    },
+    {
+      "Id": "Wood_Softwood"
+    },
+    {
+      "Id": "Wood_Lightwood_Softwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_All"
+    }
+  ],
   "Tags": {
     "Type": [
       "Weaves"

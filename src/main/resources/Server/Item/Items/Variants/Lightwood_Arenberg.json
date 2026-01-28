@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Lightwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Lightwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,26 @@
     "ParticleColor": "#c3ac8f",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Lightwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Lightwood"
+    },
+    {
+      "Id": "Wood_Lightwood_Softwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Arenberg"

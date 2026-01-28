@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Hardwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Hardwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Hardwood_Trunk"
+    }
+  ]
+}

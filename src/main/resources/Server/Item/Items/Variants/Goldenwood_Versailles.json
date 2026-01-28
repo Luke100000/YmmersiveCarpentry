@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Goldenwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Goldenwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,26 @@
     "ParticleColor": "#956c34",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Goldenwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Goldenwood"
+    },
+    {
+      "Id": "Wood_Drywood_Goldenwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Versailles"

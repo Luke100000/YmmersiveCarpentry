@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Drywood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Drywood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,26 @@
     "ParticleColor": "#9f815a",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Drywood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Drywood"
+    },
+    {
+      "Id": "Wood_Drywood_Goldenwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Panel"

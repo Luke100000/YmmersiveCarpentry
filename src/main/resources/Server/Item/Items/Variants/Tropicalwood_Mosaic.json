@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Tropicalwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Tropicalwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,23 @@
     "ParticleColor": "#cca35c",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Tropicalwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Tropicalwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Mosaic"

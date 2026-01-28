@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Hardwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Hardwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,23 @@
     "ParticleColor": "#5a3621",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Hardwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Hardwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Arenberg"

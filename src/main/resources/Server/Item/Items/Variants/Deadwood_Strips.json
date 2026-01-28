@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Deadwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Deadwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,26 @@
     "ParticleColor": "#413725",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Deadwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Deadwood"
+    },
+    {
+      "Id": "Wood_Blackwood_Deadwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Strips"

@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Softwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Softwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Softwood_Trunk"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 items.Ymmersive_Carpentry_Bench.name = Carpentry Bench
 items.Ymmersive_Carpentry_Bench.description = Create variants from base wood blocks.
 
+YmmersiveCarpentry.resourceGroupsMissing = Ymmersive Carpentry requires "Resource Groups" for most recipes!
+
 ui.bench.YmmersiveCarpentry = Ymmersive Carpentry
 
 ui.benchCategories.Blackwood = Blackwood

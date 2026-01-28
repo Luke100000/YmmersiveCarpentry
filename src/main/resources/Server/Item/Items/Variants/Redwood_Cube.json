@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Redwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Redwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,23 @@
     "ParticleColor": "#64341e",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Redwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Wood_Redwood"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
   "Tags": {
     "Type": [
       "Cube"

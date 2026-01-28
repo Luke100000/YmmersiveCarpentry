@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Blackwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Blackwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Blackwood_Trunk"
+    }
+  ]
+}

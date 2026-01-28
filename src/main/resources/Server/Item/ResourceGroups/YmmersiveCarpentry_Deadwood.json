@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Deadwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Deadwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Deadwood_Trunk"
+    }
+  ]
+}

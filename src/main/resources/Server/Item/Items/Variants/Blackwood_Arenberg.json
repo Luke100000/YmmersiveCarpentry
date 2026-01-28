@@ -13,7 +13,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Blackwood_Planks",
+        "ResourceTypeId": "YmmersiveCarpentry_Blackwood",
         "Quantity": 1
       }
     ],
@@ -49,6 +49,26 @@
     "ParticleColor": "#1c1a16",
     "BlockSoundSetId": "Wood"
   },
+  "ResourceTypes": [
+    {
+      "Id": "YmmersiveCarpentry_Blackwood"
+    },
+    {
+      "Id": "Wood_Planks"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    },
+    {
+      "Id": "Wood_Blackwood"
+    },
+    {
+      "Id": "Wood_Blackwood_Deadwood"
+    }
+  ],
   "Tags": {
     "Type": [
       "Arenberg"

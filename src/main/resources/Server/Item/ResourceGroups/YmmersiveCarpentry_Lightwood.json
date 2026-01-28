@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Lightwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Lightwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Lightwood_Trunk"
+    }
+  ]
+}

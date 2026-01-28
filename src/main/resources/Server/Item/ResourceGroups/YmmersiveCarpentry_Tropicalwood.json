@@ -1,0 +1,13 @@
+{
+  "ResourceType": {
+    "Id": "YmmersiveCarpentry_Tropicalwood"
+  },
+  "Resources": [
+    {
+      "ItemId": "Wood_Tropicalwood_Planks"
+    },
+    {
+      "ResourceTypeId": "Wood_Tropicalwood_Trunk"
+    }
+  ]
+}

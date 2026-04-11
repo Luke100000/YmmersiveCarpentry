@@ -51,8 +51,12 @@
       "CompletedSoundEventId": "SFX_Workbench_Craft",
       "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed"
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "crafting"
     },
     "Gathering": {
       "Breaking": {

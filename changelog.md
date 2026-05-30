@@ -1,3 +1,7 @@
+# 1.1.3
+
+* Updated to 0.5.3
+
 # 1.1.2
 
 * Updated to patch 4

@@ -7,6 +7,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.plugin.PluginBase;
 import com.hypixel.hytale.server.core.plugin.PluginManager;
+import com.hypixel.hytale.server.core.universe.PlayerRef;
 
 import javax.annotation.Nonnull;
 import java.awt.*;
@@ -26,6 +27,9 @@ public class YmmersiveCarpentry extends JavaPlugin {
     }
 
     private void onPlayerConnect(PlayerReadyEvent event) {
-        event.getPlayer().sendMessage(Message.translation("server.YmmersiveCarpentry.resourceGroupsMissing").color(Color.ORANGE));
+        PlayerRef playerRef = event.getPlayerRef().getStore().getComponent(event.getPlayerRef(), PlayerRef.getComponentType());
+        if (playerRef != null) {
+            playerRef.sendMessage(Message.translation("server.YmmersiveCarpentry.resourceGroupsMissing").color(Color.ORANGE));
+        }
     }
 }

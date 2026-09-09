@@ -1,3 +1,7 @@
+# 1.1.4
+
+* Updated to 0.6.4
+
 # 1.1.3
 
 * Updated to 0.5.3

@@ -1,3 +1,7 @@
+# 1.1.5
+
+* Fixed gather type
+
 # 1.1.4
 
 * Updated to 0.6.4
